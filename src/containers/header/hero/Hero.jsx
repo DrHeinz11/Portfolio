@@ -7,10 +7,14 @@ export default function Hero() {
   return (
     <Stack
       position={"relative"}
-      top="65px"
+      top={{ base: "75px", lg: "75px" }}
       gap={"20px"}
+      display="flex"
       flexDirection={{ lg: "row", base: "column" }}
       justifyContent="space-between"
+      alignItems={{ base: "flex-end", lg: "flex-start" }}
+      maxW="1200px"
+      margin="auto"
     >
       <HeroCopy heading={Header.heading} paragraph={Header.paragraph} />
       <HeroFigure copy={Header.subheading} />

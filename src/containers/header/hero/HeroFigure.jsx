@@ -5,9 +5,10 @@ import arrow from "../../../assets/Arrow-orange.svg";
 export default function HeroFigure({ copy }) {
   return (
     <Stack
-      maxW={{ lg: "50%", base: "100%" }}
+      maxW={{ lg: "50%", base: "75%" }}
       position="relative"
-      top={{ lg: "80px", base: "0" }}
+      margin={{ base: "0 auto", lg: "0" }}
+      top={{ lg: "100px", base: "0" }}
     >
       <Box
         display="flex"
@@ -31,7 +32,7 @@ export default function HeroFigure({ copy }) {
       </Box>
       <Image
         src={figure}
-        w={{ lg: "100%", base: "70%" }}
+        w="100%"
         alignSelf={{ base: "center", lg: "0" }}
         margin={{ base: "10px 0", md: "0" }}
         h="100%"

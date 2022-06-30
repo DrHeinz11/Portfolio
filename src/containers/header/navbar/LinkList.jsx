@@ -5,10 +5,10 @@ import data from "../../../constant/NAV.JS";
 function LinkList() {
   return (
     <Breadcrumb>
-      {data?.map((e) => {
+      {data?.map((e, index) => {
         return (
           <Links
-            Key={e.Key}
+            key={index}
             Url={e.Url}
             Title={e.Title}
             Hover={e.Hover}
