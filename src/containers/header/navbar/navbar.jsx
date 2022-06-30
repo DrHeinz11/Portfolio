@@ -1,7 +1,7 @@
-import { Stack, Box, Image, Breadcrumb } from "@chakra-ui/react";
+import { Stack, Image, Breadcrumb } from "@chakra-ui/react";
 import LinkList from "./LinkList";
 import logo from "../../../assets/Logo.svg";
-import Links from "../../../components/links";
+import Links from "../../../components/Links";
 
 export default function Navbar() {
   return (
