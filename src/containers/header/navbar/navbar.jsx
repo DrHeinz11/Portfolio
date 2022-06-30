@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <Stack
       w="100%"
-      p="10px  0"
-      maxW={"1200px"}
+      p="10px 25px"
+      maxW="100%"
       h="50px"
       display="flex"
       zIndex={"100"}
