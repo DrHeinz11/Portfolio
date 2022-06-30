@@ -8,6 +8,7 @@ export default function HeroCopy({ heading, paragraph }) {
       maxWidth={{ lg: "50%", base: "100%" }}
     >
       <Heading
+      color="#fff"
         w="75%"
         lineHeight={{ md: "90px", base: "55px" }}
         fontSize={{ base: "3rem", md: "4.5rem", lg: "6rem" }}
@@ -16,6 +17,7 @@ export default function HeroCopy({ heading, paragraph }) {
         {heading}
       </Heading>
       <Text
+      color="#fff"
         lineHeight={{ md: "30px", base: "20px" }}
         fontSize={{ base: "1rem", md: "1.5rem", lg: "1.75rem" }}
       >

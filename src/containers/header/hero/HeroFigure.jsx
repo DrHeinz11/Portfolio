@@ -17,6 +17,7 @@ export default function HeroFigure({ copy }) {
         gap={"5px"}
       >
         <Heading
+          color="#fff"
           fontSize={{ lg: "2rem", md: "1.75rem", base: "1.25rem" }}
           maxWidth="75%"
         >
