@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <Stack
       w="100%"
-      p="10px 25px"
+      p={{ base: "10px 15px", lg: "10px 25px" }}
       maxW="100%"
       h="50px"
       display="flex"

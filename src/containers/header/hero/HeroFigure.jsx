@@ -7,7 +7,7 @@ export default function HeroFigure({ copy }) {
     <Stack
       maxW={{ lg: "50%", base: "100%" }}
       position="relative"
-      top={{ lg: "145px", base: "0" }}
+      top={{ lg: "80px", base: "0" }}
     >
       <Box
         display="flex"
@@ -29,7 +29,14 @@ export default function HeroFigure({ copy }) {
           maxH={{ lg: "48px", md: "38px", base: "28px" }}
         />
       </Box>
-      <Image src={figure} w="100%" h="100%" objectFit={"cover"} />
+      <Image
+        src={figure}
+        w={{ lg: "100%", base: "70%" }}
+        alignSelf={{ base: "center", lg: "0" }}
+        margin={{ base: "10px 0", md: "0" }}
+        h="100%"
+        objectFit={"cover"}
+      />
     </Stack>
   );
 }
